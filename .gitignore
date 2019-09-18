@@ -30,3 +30,5 @@ aws-exports.js
 awsconfiguration.json
 amplify/team-provider-info.json
 src/aws-exports.js
+
+amplify/mock-data

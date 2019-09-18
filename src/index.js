@@ -11,6 +11,7 @@ import './index.css'
 import App from './App'
 import Loading from './components/Loading'
 
+window.LOG_LEVEL = 'DEBUG';
 Amplify.configure(config)
 
 const client = new AWSAppSyncClient({
