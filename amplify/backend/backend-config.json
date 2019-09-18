@@ -2,7 +2,8 @@
 	"auth": {
 		"auth": {
 			"service": "Cognito",
-			"providerPlugin": "awscloudformation"
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
 		}
 	},
 	"api": {
@@ -20,6 +21,12 @@
 					}
 				}
 			}
+		}
+	},
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation"
 		}
 	}
 }
